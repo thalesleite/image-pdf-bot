@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+.tmp/
+temp/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage / testing
+coverage/
+.nyc_output/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Editors / IDE
+.vscode/
+.idea/
+*.iml
+
+# Package managers (keep lockfiles – don’t ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Generated outputs
+*.pdf
+
+# Mac archive metadata
+__MACOSX/
+
+out/
